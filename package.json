@@ -1,0 +1,23 @@
+{
+  "name": "convertmymoney",
+  "version": "1.0.0",
+  "description": "Convert Dolares to Real (Brasileiro)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmarceloribas/convertMyMoney.git"
+  },
+  "author": "Marcelo Ribas (by DevPleno)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmarceloribas/convertMyMoney/issues"
+  },
+  "homepage": "https://github.com/devmarceloribas/convertMyMoney#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
