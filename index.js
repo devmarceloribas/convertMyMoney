@@ -7,6 +7,8 @@ app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
+const port = process.env.PORT || 8080
+
 app.get('/', (req, res) => {
   res.render('home')
 })
@@ -28,8 +30,7 @@ app.get('/cotacao', (req, res) => {
   }
 })
 
-
-app.listen(8080, err => {
+app.listen(port, err => {
   if (err) {
     console.log('ConvertMyMoney Server is not running')
   } else {
