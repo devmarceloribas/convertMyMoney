@@ -22,3 +22,9 @@ button {
   padding: 7px;
   margin: 4px;
 }
+
+.resultado {
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+  background: #c4c4c4;
+}
