@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
   res.render('home')
 })
 
+app.get('/cotacao', (req, res) => {
+  res.render('cotacao')
+})
+
+
 app.listen(8080, err => {
   if (err) {
     console.log('ConvertMyMoney Server is not running')
